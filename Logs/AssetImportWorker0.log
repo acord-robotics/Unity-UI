@@ -1,0 +1,237 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Users/liam/Documents/2020.3.6f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/liam/Documents/Unity/Unity UI
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62618
+Successfully changed project path to: /Users/liam/Documents/Unity/Unity UI
+/Users/liam/Documents/Unity/Unity UI
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 31.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path /Users/liam/Documents/2020.3.6f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/liam/Documents/Unity/Unity UI/Assets
+GfxDevice: creating device client; threaded=0
+2021-05-10 03:58:59.404 Unity[50081:1922729] (null) preferred device: Apple M1 (high power)
+2021-05-10 03:58:59.404 Unity[50081:1922729] Metal devices available: 1
+2021-05-10 03:58:59.404 Unity[50081:1922729] 0: Apple M1 (high power)
+2021-05-10 03:58:59.404 Unity[50081:1922729] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Users/liam/Documents/2020.3.6f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/liam/Documents/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/liam/Documents/2020.3.6f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56081
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/liam/Documents/2020.3.6f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002156 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 32.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.164 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 32.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.865 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/liam/Documents/2020.3.6f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 144.1 MB.
+System memory in use after: 144.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2254.
+Total: 1.569541 ms (FindLiveObjects: 0.168083 ms CreateObjectMapping: 0.036458 ms MarkObjects: 1.242125 ms  DeleteObjects: 0.121958 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/UI_System/Prefab
+  artifactKey: Guid(411444359b7e38e47ba131c57e4de394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Prefab using Guid(411444359b7e38e47ba131c57e4de394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9430c7f0623a90c2098336fa1df92998') in 0.006430 seconds
+  Import took 0.009222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/UI_System
+  artifactKey: Guid(bc5b64dac47e2394f83c95b902970dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System using Guid(bc5b64dac47e2394f83c95b902970dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932146c2e5a562059ce0e417afefbf67') in 0.000650 seconds
+  Import took 0.002400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 328.276214 seconds.
+  path: Assets/UI_System/Prefab/UI
+  artifactKey: Guid(4196ae121c0aa044694191e6be9af706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Prefab/UI using Guid(4196ae121c0aa044694191e6be9af706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7d2afbe09cdde19de19e34bf3dbcf6') in 0.001970 seconds
+  Import took 0.014552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125022 seconds.
+  path: Assets/UI_System/Prefab/UI/Name_InputField.prefab
+  artifactKey: Guid(a885d83922d9a2d4ead460bcc9206110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Prefab/UI/Name_InputField.prefab using Guid(a885d83922d9a2d4ead460bcc9206110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5ae19d1f83062daf64509f2ad3f403') in 0.890255 seconds
+  Import took 0.893043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/UI_System/Prefab/UI/UI_GRP.prefab
+  artifactKey: Guid(97067c73da8c16044b8597bdcf7ea059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Prefab/UI/UI_GRP.prefab using Guid(97067c73da8c16044b8597bdcf7ea059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e36e33fc11f5a3e929e447778c792b7') in 0.017935 seconds
+  Import took 0.020108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/UI_System/Prefab/UI/NoAccount_Panel.prefab
+  artifactKey: Guid(1d8ec1f8232427445ac78e2c9db0b1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Prefab/UI/NoAccount_Panel.prefab using Guid(1d8ec1f8232427445ac78e2c9db0b1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799ef0196a27d7f51874748f16cf0674') in 0.011858 seconds
+  Import took 0.014195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/UI_System/Prefab/UI/Register_Button.prefab
+  artifactKey: Guid(b92749d48cf63c94eb249c1df0f192ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Prefab/UI/Register_Button.prefab using Guid(b92749d48cf63c94eb249c1df0f192ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8644a6c2136627366ec458e14476f29b') in 0.002802 seconds
+  Import took 0.004989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.825677 seconds.
+  path: Assets/UI_System/Art
+  artifactKey: Guid(9daeef872663e374d8e38158f872a9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Art using Guid(9daeef872663e374d8e38158f872a9e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9161b102216266d78c73e42674e774') in 0.001973 seconds
+  Import took 0.004921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.584870 seconds.
+  path: Assets/UI_System/Art/Textures
+  artifactKey: Guid(623dfb585755dbf439ad8df3d1b0121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Art/Textures using Guid(623dfb585755dbf439ad8df3d1b0121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa19fa37b32f04a0baaef4fe25cc9ae') in 0.002155 seconds
+  Import took 0.005187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.855524 seconds.
+  path: Assets/UI_System/Art/Textures/UI
+  artifactKey: Guid(75d821b9f8ec74940945e77902f1dfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Art/Textures/UI using Guid(75d821b9f8ec74940945e77902f1dfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea27d4b843e6a2352c1bcc6a5400312') in 0.000938 seconds
+  Import took 0.003895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053249 seconds.
+  path: Assets/UI_System/Art/Textures/UI/todo_back_icon_001.png
+  artifactKey: Guid(a6e5b3e620742734781722364550f8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Art/Textures/UI/todo_back_icon_001.png using Guid(a6e5b3e620742734781722364550f8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04d58bf53eafbeb834d69db7e4916c8') in 0.601913 seconds
+  Import took 0.605505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/UI_System/Art/Textures/UI/todo_email_icon_001.png
+  artifactKey: Guid(d0995d9cfa113764c8177368020621e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Art/Textures/UI/todo_email_icon_001.png using Guid(d0995d9cfa113764c8177368020621e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c87da16979d80524f613884c7488e88') in 0.010869 seconds
+  Import took 0.013110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/UI_System/Art/Textures/UI/todo_logo_001.png
+  artifactKey: Guid(9ba82951de020594aa35156d08280ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Art/Textures/UI/todo_logo_001.png using Guid(9ba82951de020594aa35156d08280ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bb07fced3ab8cff8eeaa362a495985') in 0.010894 seconds
+  Import took 0.013106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/UI_System/Art/Textures/UI/todo_user_icon_001.png
+  artifactKey: Guid(dc200a6bfefd3e6479d209b6ecaa0cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Art/Textures/UI/todo_user_icon_001.png using Guid(dc200a6bfefd3e6479d209b6ecaa0cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edbdab03408baa7f7e5b38380084d19') in 0.006354 seconds
+  Import took 0.008587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/UI_System/Art/Textures/UI/todo_login_bg_001.png
+  artifactKey: Guid(6fcb66e484f11f441ac1e36774108403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Art/Textures/UI/todo_login_bg_001.png using Guid(6fcb66e484f11f441ac1e36774108403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59afbd7f54f2b4ecf9917ae1bbcd4a0') in 0.017839 seconds
+  Import took 0.019916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/UI_System/Art/Textures/UI/todo_lock_icon_001.png
+  artifactKey: Guid(796762463d2f4a94d9e2264d0ec7bf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Art/Textures/UI/todo_lock_icon_001.png using Guid(796762463d2f4a94d9e2264d0ec7bf95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e962de4e2744ee92416c7513626b10c6') in 0.006208 seconds
+  Import took 0.008402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/UI_System/Art/Textures/UI/todo_present_icon_001.png
+  artifactKey: Guid(624d75b03c735ae4393494c5fc0dffcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Art/Textures/UI/todo_present_icon_001.png using Guid(624d75b03c735ae4393494c5fc0dffcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460ff8331e0bf3b746ee4fbb800f9f62') in 0.005582 seconds
+  Import took 0.007914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/UI_System/Art/Textures/UI/todo_register_bg_001.png
+  artifactKey: Guid(05366ce1fac14e941bb62252f0726ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Art/Textures/UI/todo_register_bg_001.png using Guid(05366ce1fac14e941bb62252f0726ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49c4b201661d940e27e324578573cfb') in 0.011270 seconds
+  Import took 0.013253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013193 seconds.
+  path: Assets/UI_System/Art/Textures/UI/todo_present_icon_001.png
+  artifactKey: Guid(624d75b03c735ae4393494c5fc0dffcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_System/Art/Textures/UI/todo_present_icon_001.png using Guid(624d75b03c735ae4393494c5fc0dffcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460ff8331e0bf3b746ee4fbb800f9f62') in 0.005296 seconds
+  Import took 0.007639 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002826 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.821 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.4 MB.
+System memory in use after: 156.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2278.
+Total: 1.568125 ms (FindLiveObjects: 0.163042 ms CreateObjectMapping: 0.038875 ms MarkObjects: 1.241333 ms  DeleteObjects: 0.123542 ms)
+
